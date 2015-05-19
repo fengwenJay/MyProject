@@ -14,6 +14,7 @@
 		187BB28F1B0B077B007C24FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187BB28E1B0B077B007C24FC /* Images.xcassets */; };
 		187BB2921B0B077B007C24FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187BB2901B0B077B007C24FC /* LaunchScreen.xib */; };
 		187BB29E1B0B077B007C24FC /* newProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BB29D1B0B077B007C24FC /* newProjectTests.m */; };
+		187BB2A91B0B0B18007C24FC /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BB2A81B0B0B18007C24FC /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		187BB2971B0B077B007C24FC /* newProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187BB29C1B0B077B007C24FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187BB29D1B0B077B007C24FC /* newProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newProjectTests.m; sourceTree = "<group>"; };
+		187BB2A71B0B0B18007C24FC /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = entity/TestClass.h; sourceTree = "<group>"; };
+		187BB2A81B0B0B18007C24FC /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = entity/TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				187BB2861B0B077B007C24FC /* AppDelegate.m */,
 				187BB2881B0B077B007C24FC /* ViewController.h */,
 				187BB2891B0B077B007C24FC /* ViewController.m */,
+				187BB2A71B0B0B18007C24FC /* TestClass.h */,
+				187BB2A81B0B0B18007C24FC /* TestClass.m */,
 				187BB28B1B0B077B007C24FC /* Main.storyboard */,
 				187BB28E1B0B077B007C24FC /* Images.xcassets */,
 				187BB2901B0B077B007C24FC /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187BB2A91B0B0B18007C24FC /* TestClass.m in Sources */,
 				187BB28A1B0B077B007C24FC /* ViewController.m in Sources */,
 				187BB2871B0B077B007C24FC /* AppDelegate.m in Sources */,
 				187BB2841B0B077B007C24FC /* main.m in Sources */,
