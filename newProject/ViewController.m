@@ -32,7 +32,7 @@
     
     int ddse =22232222;
     
-    NSLog(@"----%d---",ddse);
+    NSLog(@"----%d--ddddd-",ddse);
 }
 
 - (void)didReceiveMemoryWarning {
