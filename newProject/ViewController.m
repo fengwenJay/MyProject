@@ -37,6 +37,16 @@
     int ddse =22232222;
     
     NSLog(@"----%d--ddddd-",ddse);
+    
+    
+    int d2dse =22232222;
+    
+    NSLog(@"--222--%d--ddddd-",d2dse);
+    
+    int dds2e =22232222;
+    
+    NSLog(@"----%d333--ddddd-",dds2e);
+    
 }
 
 - (void)didReceiveMemoryWarning {
