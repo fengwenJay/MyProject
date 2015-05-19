@@ -23,6 +23,7 @@
     int a = 5;
     int b = 10;
     int sadad = 10000;
+    NSLog(@"%d",sadad);
     
     
     self.sum = a + b;
