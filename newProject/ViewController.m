@@ -24,6 +24,7 @@
     int b = 10;
     int sadad = 10000;
     NSLog(@"%d",sadad);
+    NSLog(@"%d---",sadad);
     
     
     self.sum = a + b;
