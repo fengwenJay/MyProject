@@ -29,6 +29,10 @@
     
     [self sayHello];
     
+    
+    int ddse =22232222;
+    
+    NSLog(@"----%d---",ddse);
 }
 
 - (void)didReceiveMemoryWarning {
