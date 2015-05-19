@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+-(void)sayByeBye;
 @end
 
 @implementation ViewController
@@ -25,6 +25,11 @@
     
     NSLog(@"The result is: %d", self.sum);
     
+    [self sayByeBye];
+}
+
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 
 - (void)didReceiveMemoryWarning {
